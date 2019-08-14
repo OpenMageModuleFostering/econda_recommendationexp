@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package>
+    <name>Econda_Recommendationexp</name>
+    <version>1.0.0</version>
+    <stability>stable</stability>
+    <license uri="http://www.opensource.org/licenses/bsd-license.php">BSD</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>The extension simplifies the data exchange between your Magento shop system and econda Cross Sell rec engine.</summary>
+    <description>Magento Cross Sell Extension&#xD;
+Increase sales with the intelligent econda Cross Sell recommendation engine for your Magento shop&#xD;
+econda Cross Sell provides self-learning buying recommendations for your customers&#xD;
+The extension simplifies the data exchange between your Magento shop system and econda Cross Sell</description>
+    <notes>Integration of econda Cross Sell export.</notes>
+    <authors><author><name>ecdev</name><user>ecmagento</user><email>reinecke@econda.de</email></author></authors>
+    <date>2014-02-10</date>
+    <time>13:43:30</time>
+    <contents><target name="magecommunity"><dir name="Econda"><dir name="Recommendationexp"><dir name="Helper"><file name="Data.php" hash="6d522c4a00fd86e8582236403bc835f2"/><file name="Recommendation.php" hash="93f0f348e4d81a9d0e98d9fa4c79afb8"/></dir><dir name="Model"><dir name="System"><dir name="Config"><dir name="Source"><file name="Export.php" hash="259b1765ee8b77ca24587e9fc56370d2"/><file name="Product.php" hash="0b19cd327a9d7d8f027e3b501aca550a"/><file name="Remote.php" hash="0b4a560e4c9a12fbc35f625cb1d20cb8"/></dir></dir></dir></dir><dir name="controllers"><file name="IndexController.php" hash="be604b415f58e8f1f4dddc0055f712d3"/></dir><dir name="etc"><file name="config.xml" hash="418948bfb239cf284b209773e04489b7"/><file name="system.xml" hash="ae5e10e9d2dafd0a32db845f4aad7c0f"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Econda_Recommendationexp.xml" hash="0178abedf9c60081bf8edad9824eff66"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.0</min><max>6.0.0</max></php></required></dependencies>
+</package>

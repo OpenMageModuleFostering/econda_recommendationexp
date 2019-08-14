@@ -1,0 +1,16 @@
+{
+    "name": "OpenMageModuleFostering/Econda_Recommendationexp",
+    "type": "magento-module",
+    "license": "BSD",
+    "homepage": "",
+    "description": "The extension simplifies the data exchange between your Magento shop system and econda Cross Sell rec engine.",
+    "authors": [
+    {
+        "name": "ecdev",
+        "email": "reinecke@econda.de"
+    }
+],
+    "suggest": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
